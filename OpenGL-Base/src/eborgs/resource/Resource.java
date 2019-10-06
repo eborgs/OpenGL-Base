@@ -8,8 +8,8 @@ public abstract class Resource {
 
 	private boolean deleted;
 
-	protected boolean shared = false;
-	protected boolean missing = false;
+	public boolean shared = false;
+	public boolean missing = false;
 
 	public Resource() {
 		onResourceCreated(this);
